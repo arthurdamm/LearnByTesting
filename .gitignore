@@ -25,10 +25,10 @@ desktop.ini
 
 .vscode/
 .idea/
-*.sln
-*.csproj
-*.user
-*.unityproj
+# *.sln
+# *.csproj
+# *.user
+# *.unityproj
 
 # ================== #
 # Crash + Cache Files
@@ -83,15 +83,6 @@ androidbuild*
 # Auto-generated Input System data
 # ================== #
 GeneratedInputs/
-
-# =============== #
-# Unity Cache
-# =============== #
-
-*.csproj
-*.unityproj
-*.sln
-*.sln.*
 
 # =================== #
 # Personal settings (optional to ignore)
