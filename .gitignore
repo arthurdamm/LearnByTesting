@@ -23,8 +23,8 @@ desktop.ini
 # IDE Specific #
 # ============ #
 
-.vscode/
-.idea/
+# .vscode/
+# .idea/
 # *.sln
 # *.csproj
 # *.user
@@ -51,8 +51,8 @@ desktop.ini
 # Rider Files     #
 # =============== #
 
-.idea/
-*.sln.iml
+# .idea/
+# *.sln.iml
 
 # =============== #
 # Builds & Binaries
