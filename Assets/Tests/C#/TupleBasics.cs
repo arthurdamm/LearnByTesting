@@ -32,6 +32,14 @@ namespace LearnByTesting
             Assert.That(tuple.ToString(), Is.EqualTo("(42, foo)"));
             Assert.That(tuple.ToString(), Is.EqualTo($"({tuple.Item1}, {tuple.Item2})"));
         }
+        
+        [Test]
+        public void Tuple_NamedFields_ToString_AreIgnored()
+        {
+            (int Id, string Name) tuple = (42, "foo");
+            Assert.That(tuple.ToString(), Is.EqualTo("(42, foo)"));
+            Assert.That(tuple.ToString(), Is.EqualTo($"({tuple.Item1}, {tuple.Item2})"));
+        }
 
         [Test]
         public void Tuple_GetType()
